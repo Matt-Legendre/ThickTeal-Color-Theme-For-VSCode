@@ -1,0 +1,21 @@
+{
+    "name": "thickteal",
+    "displayName": "ThickTeal Color Theme",
+    "description": "A great theme for increased productivity, better health and enhanced dance moves",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ThickTeal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ThickTeal-color-theme.json"
+            }
+        ]
+    }
+}
