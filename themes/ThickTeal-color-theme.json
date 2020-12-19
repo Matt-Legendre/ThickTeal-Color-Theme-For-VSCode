@@ -4,52 +4,52 @@
       "colors": {
          "focusBorder": "#bbdaff",
          "errorForeground": "#a92049",
-         "input.background": "#001733",
-         "dropdown.background": "#001733",
+         "input.background": "#023835",
+         "dropdown.background": "#023835",
          "list.focusBackground": "#ffffff60",
          "list.activeSelectionBackground": "#ffffff60",
          "list.inactiveSelectionBackground": "#ffffff40",
          "list.hoverBackground": "#ffffff30",
          "list.highlightForeground": "#bbdaff",
          "pickerGroup.foreground": "#bbdaff",
-         "editor.background": "#002451",
+         "editor.background": "#023835",
          "editor.foreground": "#ffffff",
          "editor.selectionBackground": "#003f8e",
          "minimap.selectionHighlight": "#003f8e",
          "editor.lineHighlightBackground": "#00346e",
          "editorLineNumber.activeForeground": "#949494",
-         "editorCursor.foreground": "#ffffff",
+         "editorCursor.foreground": "#070707",
          "editorWhitespace.foreground": "#404f7d",
          "editorWidget.background": "#001c40",
          "editorHoverWidget.background": "#001c40",
          "editorHoverWidget.border": "#ffffff44",
          "editorGroup.border": "#404f7d",
-         "editorGroupHeader.tabsBackground": "#001733",
+         "editorGroupHeader.tabsBackground": "#023835",
          "editorGroup.dropBackground": "#25375daa",
          "peekViewResult.background": "#001c40",
          "tab.inactiveBackground": "#001c40",
          "tab.lastPinnedBorder": "#007acc80",
          "debugToolBar.background": "#001c40",
-         "titleBar.activeBackground": "#001126",
-         "statusBar.background": "#001126",
+         "titleBar.activeBackground": "#023835",
+         "statusBar.background": "#023835",
          "statusBarItem.remoteBackground": "#0e639c",
-         "statusBar.noFolderBackground": "#001126",
-         "statusBar.debuggingBackground": "#001126",
-         "activityBar.background": "#001733",
+         "statusBar.noFolderBackground": "#023835",
+         "statusBar.debuggingBackground": "#023835",
+         "activityBar.background": "#023835",
          "progressBar.background": "#bbdaffcc",
          "badge.background": "#bbdaffcc",
          "badge.foreground": "#001733",
-         "sideBar.background": "#001c40",
+         "sideBar.background": "#023835",
          "terminal.ansiBlack": "#111111",
-         "terminal.ansiRed": "#ff9da4",
-         "terminal.ansiGreen": "#d1f1a9",
-         "terminal.ansiYellow": "#ffeead",
-         "terminal.ansiBlue": "#bbdaff",
-         "terminal.ansiMagenta": "#ebbbff",
-         "terminal.ansiCyan": "#99ffff",
+         "terminal.ansiRed": "#e04141",
+         "terminal.ansiGreen": "#72eb4d",
+         "terminal.ansiYellow": "#f1d150",
+         "terminal.ansiBlue": "#5090dd",
+         "terminal.ansiMagenta": "#a44dc9",
+         "terminal.ansiCyan": "#41e0e0",
          "terminal.ansiWhite": "#cccccc",
-         "terminal.ansiBrightBlack": "#333333",
-         "terminal.ansiBrightRed": "#ff7882",
+         "terminal.ansiBrightBlack": "#1d1b1b",
+         "terminal.ansiBrightRed": "#e75b5b",
          "terminal.ansiBrightGreen": "#b8f171",
          "terminal.ansiBrightYellow": "#ffe580",
          "terminal.ansiBrightBlue": "#80baff",
@@ -138,7 +138,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-            "foreground": "#dd5925",
+            "foreground": "#ec7748",
                      "fontStyle": "bold"
 			}
 		},
@@ -191,9 +191,9 @@
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"string",
+				
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -676,6 +676,15 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
-		}
+      },
+   /////////////////////////matoy//////////////////////////////
+      {
+         "name": "HTML attribute content",
+         "scope": ["meta.tag"],
+         "settings": {
+            "foreground": "#fce878",
+            "fontStyle": ""
+         }
+      }
 	]
 }
