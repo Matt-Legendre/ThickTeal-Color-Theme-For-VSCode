@@ -2,6 +2,9 @@
    "name": "ThickTeal",
    "type": "dark",
    "colors": {
+      "editor.background": "#06383f",
+      "editor.foreground": "#ffffff",
+      /* F1 */
       "focusBorder": "#bbdaff",
       "errorForeground": "#a92049",
       "input.background": "#023835",
@@ -12,34 +15,36 @@
       "list.hoverBackground": "#ffffff30",
       "list.highlightForeground": "#bbdaff",
       "pickerGroup.foreground": "#bbdaff",
-      "editor.background": "#06383f",
-      "editor.foreground": "#ffffff",
-      "editor.selectionBackground": "#003f8e",
-      "minimap.selectionHighlight": "#003f8e",
-      "editor.lineHighlightBackground": "#00346e",
-      "editorLineNumber.activeForeground": "#949494",
+      /* Highlight */
+      "editor.selectionBackground": "#4273af",
+      "minimap.selectionHighlight": "#4273af",
+      "editor.lineHighlightBackground": "#4273af",
+      "editorLineNumber.activeForeground": "#4273af",
       "editorCursor.foreground": "#070707",
       "editorWhitespace.foreground": "#404f7d",
-      "editorWidget.background": "#001c40",
-      "editorHoverWidget.background": "#001c40",
+      /* Widget */
+      "editorWidget.background": "#043453",
+      "editorHoverWidget.background": "#043453",
       "editorHoverWidget.border": "#ffffff44",
       "editorGroup.border": "#404f7d",
       "editorGroupHeader.tabsBackground": "#023835",
       "editorGroup.dropBackground": "#25375daa",
       "peekViewResult.background": "#001c40",
-      "tab.inactiveBackground": "#001c40",
+      "tab.inactiveBackground": "#06312a",
       "tab.lastPinnedBorder": "#007acc80",
+      /* BARS */
       "debugToolBar.background": "#001c40",
-      "titleBar.activeBackground": "#023835",
-      "statusBar.background": "#023835",
+      "titleBar.activeBackground": "#44afaa",
+      "statusBar.background": "#03302d",
       "statusBarItem.remoteBackground": "#0e639c",
       "statusBar.noFolderBackground": "#023835",
       "statusBar.debuggingBackground": "#023835",
-      "activityBar.background": "#023835",
+      "activityBar.background": "#075854",
       "progressBar.background": "#bbdaffcc",
       "badge.background": "#bbdaffcc",
       "badge.foreground": "#001733",
-      "sideBar.background": "#023835",
+      "sideBar.background": "#04423f",
+      /* Terminal */
       "terminal.ansiBlack": "#111111",
       "terminal.ansiRed": "#e04141",
       "terminal.ansiGreen": "#72eb4d",
@@ -58,7 +63,7 @@
       "terminal.ansiBrightWhite": "#ffffff"
    },
    "tokenColors": [
-      /*{ 
+      /*{
          "name": "Comment",
          "scope": [
             "comment",
@@ -795,27 +800,26 @@
             "fontStyle": "bold"
          }
       },
-            {
-               "name": "Property value",
-               "scope": [
-                  "support.constant.property-value.css",
-               ],
-               "settings": {
-                  "foreground": "#547fb6e3",
-                  "fontStyle": "bold"
-               }
-            },
-                  {
-                     "name": "Numbers & Units",
-                     "scope": [
-                        "constant.numeric.css",
-                        "keyword.other.unit",
-                     ],
-                     "settings": {
-                        "foreground": "#5fe4b8e3",
-                        "fontStyle": "bold"
-                     }
-                  }
-
+      {
+         "name": "Property value",
+         "scope": [
+            "support.constant.property-value.css",
+         ],
+         "settings": {
+            "foreground": "#547fb6e3",
+            "fontStyle": "bold"
+         }
+      },
+      {
+         "name": "Numbers & Units",
+         "scope": [
+            "constant.numeric.css",
+            "keyword.other.unit",
+         ],
+         "settings": {
+            "foreground": "#5fe4b8e3",
+            "fontStyle": "bold"
+         }
+      }
    ]
 }
