@@ -58,7 +58,7 @@
       "terminal.ansiBrightWhite": "#ffffff"
    },
    "tokenColors": [
-      {/*
+      { /*
          "name": "Comment",
          "scope": [
             "comment",
@@ -685,20 +685,33 @@
             "markup.deleted.git_gutter"
          ],
          "settings": {
-            "foreground": "#ce2418e3",
+            "foreground": "#e03737",
             "fontStyle": "bold"
          }
       },
+      {
+         "name": "Tag begin end",
+         "scope": [
+            "punctuation.definition.tag.begin.html",
+            "punctuation.definition.tag.end.html",
+            "meta.tag.structure.head.start.html"
+         ],
+         "settings": {
+            "foreground": "#d3291de3",
+            "fontStyle": "italic"
+         }
+      },
+      /*
       {
          "name": "HTML attribute content",
          "scope": [
             "meta.tag"
          ],
          "settings": {
-            "foreground": "#fce878",
+            "foreground": "#fdeb83",
             "fontStyle": ""
          }
-      },
+      },*/
       {
          "name": "Text",
          "scope": [
@@ -723,45 +736,86 @@
       {
          "name": "Tag begin end",
          "scope": [
-            "punctuation.definition.tag.begin.html",
-            "punctuation.definition.tag.end.html",
-            "meta.tag.structure.head.start.html"
-         ],
-         "settings": {
-            "foreground": "#d3291de3",
-            "fontStyle": "italic"
-         }
-      },
-      {
-         "name": "Tag begin end",
-         "scope": [
             "string.quoted.double.html",
          ],
          "settings": {
-            "foreground": "#e0d644e3",
+            "foreground": "#f3e36ce3",
             "fontStyle": ""
          }
       },
-                  {
-                     "name": "Selector CSS",
-                     "scope": [
-                        "entity.name.tag.css",
-                     ],
-                     "settings": {
-                        "foreground": "#f79544",
-                        "fontStyle": "underline"
-                     }
-                  }
-                  ,
+      {
+         "name": "Attribute Name",
+         "scope": [
+            "entity.other.attribute-name.html",
+         ],
+         "settings": {
+            "foreground": "#919cfa",
+            "fontStyle": ""
+         }
+      },
+      //// CSS ///
+      {
+         "name": "Selector CSS",
+         "scope": [
+            "entity.name.tag.css",
+            "entity.other.attribute-name.class.css",
+         ],
+         "settings": {
+            "foreground": "#f79544",
+            "fontStyle": ""
+         }
+      },
+      {
+         "name": "Property CSS",
+         "scope": [
+            "support.type.property-name.css",
+         ],
+         "settings": {
+            "foreground": "#e981e4e3",
+            "fontStyle": ""
+         }
+      },
+      {
+         "name": "Comment CSS",
+         "scope": [
+            "comment.block.css",
+         ],
+         "settings": {
+            "foreground": "#4fdd56e3",
+            "fontStyle": "bold"
+         }
+      },
+      {
+         "name": "Pseudo Element",
+         "scope": [
+            "entity.other.attribute-name.pseudo-element.css",
+         ],
+         "settings": {
+            "foreground": "#e41c15e3",
+            "fontStyle": "bold"
+         }
+      },
             {
-               "name": "Property CSS",
+               "name": "Property value",
                "scope": [
-                  "support.type.property-name.css",
+                  "support.constant.property-value.css",
                ],
                "settings": {
-                  "foreground": "#a254b6e3",
+                  "foreground": "#547fb6e3",
                   "fontStyle": "bold"
                }
-            }
+            },
+                  {
+                     "name": "Numbers & Units",
+                     "scope": [
+                        "constant.numeric.css",
+                        "keyword.other.unit",
+                     ],
+                     "settings": {
+                        "foreground": "#5fe4b8e3",
+                        "fontStyle": "bold"
+                     }
+                  }
+
    ]
 }
