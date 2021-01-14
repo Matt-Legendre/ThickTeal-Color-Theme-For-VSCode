@@ -58,7 +58,7 @@
       "terminal.ansiBrightWhite": "#ffffff"
    },
    "tokenColors": [
-      { /*
+      /*{ 
          "name": "Comment",
          "scope": [
             "comment",
@@ -68,7 +68,7 @@
             "fontStyle": "",
             "foreground": "#48df48"
          }
-      */},
+      }*/
       {
          "name": "Variables",
          "scope": [
