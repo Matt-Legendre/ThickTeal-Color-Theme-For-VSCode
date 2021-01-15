@@ -2,7 +2,7 @@
    "name": "ThickTeal",
    "type": "dark",
    "colors": {
-      "editor.background": "#06383f",
+      "editor.background": "#064550",
       "editor.foreground": "#ffffff",
       /* F1 */
       "focusBorder": "#bbdaff",
@@ -111,28 +111,8 @@
             "storage.modifier"
          ],
          "settings": {
-            "foreground": "#bf2fc4",
+            "foreground": "#e29742",
             "fontStyle": "bold"
-         }
-      },
-      {
-         "name": "Operator, Misc",
-         "scope": [
-            "keyword.control",
-            "constant.other.color",
-            "punctuation",
-            "meta.tag",
-            "punctuation.definition.tag",
-            "punctuation.separator.inheritance.php",
-            "punctuation.definition.tag.html",
-            "punctuation.definition.tag.begin.html",
-            "punctuation.definition.tag.end.html",
-            "punctuation.section.embedded",
-            "keyword.other.template",
-            "keyword.other.substitution"
-         ],
-         "settings": {
-            "foreground": "#89DDFF"
          }
       },
       {
@@ -158,15 +138,6 @@
          ],
          "settings": {
             "foreground": "#82AAFF"
-         }
-      },
-      {
-         "name": "Block Level Variables",
-         "scope": [
-            "meta.block variable.other"
-         ],
-         "settings": {
-            "foreground": "#f07178"
          }
       },
       {
@@ -820,6 +791,94 @@
             "foreground": "#5fe4b8e3",
             "fontStyle": "bold"
          }
-      }
+      },
+      /* JS */
+      {
+         "name": "Objects",
+         "scope": [
+            "variable.other.object.js"
+         ],
+         "settings": {
+            "foreground": "#28a1b1"
+         }
+      },
+      {
+         "name": "VAR LET names",
+         "scope": [
+            "variable.other.readwrite.js"
+         ],
+         "settings": {
+            "foreground": "#cfd141"
+         }
+      },
+      {
+         "name": "Functions",
+         "scope": [
+            "storage.type.function.js",
+            "entity.name.function",
+         ],
+         "settings": {
+            "foreground": "#eb3333"
+         }
+      },
+      {
+         "name": "Properties",
+         "scope": [
+            "support.variable.property.js",
+            "variable.other.property.js"
+         ],
+         "settings": {
+            "foreground": "#8584db"
+         }
+      },
+      {
+         "name": "Comments",
+         "scope": [
+            "comment.block.js",
+            "comment.line.double-slash.js",
+            "punctuation.definition.comment.js"
+         ],
+         "settings": {
+            "foreground": "#52e672"
+         }
+      },
+      {
+         "name": "Operator, Misc",
+         "scope": [
+            "constant.other.color",
+            "punctuation",
+            "meta.tag",
+            "punctuation.definition.tag",
+            "punctuation.separator.inheritance.php",
+            "punctuation.definition.tag.html",
+            "punctuation.definition.tag.begin.html",
+            "punctuation.definition.tag.end.html",
+            "punctuation.section.embedded",
+         ],
+         "settings": {
+            "foreground": "#89DDFF"
+         }
+      },
+      {
+         "name": "Operator, Misc",
+         "scope": [
+            "keyword.control",
+            "keyword.other.template",
+            "keyword.other.substitution"
+         ],
+         "settings": {
+            "foreground": "#c93ddb",
+         "fontStyle": "bold underline"         }
+      },
+      {
+         "name": "Punctuation",
+         "scope": [
+            "punctuation.definition.block.js"
+         ],
+         "settings": {
+            "foreground": "#89DDFF",
+            "fontStyle": ""
+         }
+      },
    ]
 }
