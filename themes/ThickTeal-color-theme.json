@@ -735,6 +735,7 @@
          "scope": [
             "entity.name.tag.css",
             "entity.other.attribute-name.class.css",
+            "entity.other.attribute-name.id.css",
          ],
          "settings": {
             "foreground": "#f79544",
@@ -747,7 +748,7 @@
             "support.type.property-name.css",
          ],
          "settings": {
-            "foreground": "#e981e4e3",
+            "foreground": "#daa2d7e3",
             "fontStyle": ""
          }
       },
@@ -757,7 +758,7 @@
             "comment.block.css",
          ],
          "settings": {
-            "foreground": "#4fdd56e3",
+            "foreground": "#7a807be3",
             "fontStyle": "bold"
          }
       },
@@ -767,8 +768,8 @@
             "entity.other.attribute-name.pseudo-element.css",
          ],
          "settings": {
-            "foreground": "#e41c15e3",
-            "fontStyle": "bold"
+            "foreground": "#c46120e3",
+            "fontStyle": ""
          }
       },
       {
@@ -777,7 +778,7 @@
             "support.constant.property-value.css",
          ],
          "settings": {
-            "foreground": "#547fb6e3",
+            "foreground": "#2db7da",
             "fontStyle": "bold"
          }
       },
