@@ -661,8 +661,8 @@
             "markup.deleted.git_gutter"
          ],
          "settings": {
-            "foreground": "#cf543ef3",
-            "fontStyle": ""
+            "foreground": "#d13e2bf3",
+            "fontStyle": "bold"
          }
       },
       {
@@ -694,8 +694,8 @@
             "text.html.derivative"
          ],
          "settings": {
-            "foreground": "#e2eee2e3",
-            "fontStyle": "bold"
+            "foreground": "#f1fcf1",
+            "fontStyle": ""
          }
       },
       {
