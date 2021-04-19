@@ -731,14 +731,32 @@
       },
       //// CSS ///
       {
-         "name": "Selector CSS",
+         "name": "Selector CSS tag",
          "scope": [
             "entity.name.tag.css",
+         ],
+         "settings": {
+            "foreground": "#291907",
+            "fontStyle": "bold"
+         }
+      },
+      {
+         "name": "Selector CSS class",
+         "scope": [
             "entity.other.attribute-name.class.css",
+         ],
+         "settings": {
+            "foreground": "#d46b42",
+            "fontStyle": "bold"
+         }
+      },
+      {
+         "name": "Selector CSS id",
+         "scope": [
             "entity.other.attribute-name.id.css",
          ],
          "settings": {
-            "foreground": "#f79544",
+            "foreground": "#e4b246",
             "fontStyle": "bold"
          }
       },
@@ -748,7 +766,7 @@
             "support.type.property-name.css",
          ],
          "settings": {
-            "foreground": "#af45bd",
+            "foreground": "#d66fce",
             "fontStyle": ""
          }
       },
@@ -793,18 +811,18 @@
             "fontStyle": "bold"
          }
       },
-            {
-               "name": "constants, parameters",
-               "scope": [
-                  "meta.function.url.css",
-                  "support.constant.font-name.css",
-                  "variable.parameter.url.css"
-               ],
-               "settings": {
-                  "foreground": "#ecf5f2e3",
-                  "fontStyle": ""
-               }
-            },
+      {
+         "name": "constants, parameters",
+         "scope": [
+            "meta.function.url.css",
+            "support.constant.font-name.css",
+            "variable.parameter.url.css"
+         ],
+         "settings": {
+            "foreground": "#ecf5f2e3",
+            "fontStyle": ""
+         }
+      },
       /* JS */
       {
          "name": "Objects",
@@ -881,7 +899,8 @@
          ],
          "settings": {
             "foreground": "#c93ddb",
-         "fontStyle": "bold underline"         }
+            "fontStyle": "bold underline"
+         }
       },
       {
          "name": "Punctuation",
