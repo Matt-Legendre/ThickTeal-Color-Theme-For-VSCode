@@ -661,7 +661,7 @@
             "markup.deleted.git_gutter"
          ],
          "settings": {
-            "foreground": "#d13e2bf3",
+            "foreground": "#db6758",
             "fontStyle": "bold"
          }
       },
@@ -673,7 +673,7 @@
             "meta.tag.structure.head.start.html"
          ],
          "settings": {
-            "foreground": "#d3291de3",
+            "foreground": "#b14942e3",
             "fontStyle": "italic"
          }
       },
@@ -694,7 +694,7 @@
             "text.html.derivative"
          ],
          "settings": {
-            "foreground": "#f1fcf1",
+            "foreground": "#b2ece9",
             "fontStyle": ""
          }
       },
@@ -715,7 +715,7 @@
             "string.quoted.double.html",
          ],
          "settings": {
-            "foreground": "#f3e36ce3",
+            "foreground": "#f3e682e3",
             "fontStyle": ""
          }
       },
@@ -725,7 +725,7 @@
             "entity.other.attribute-name.html",
          ],
          "settings": {
-            "foreground": "#919cfa",
+            "foreground": "#be70ce",
             "fontStyle": ""
          }
       },
@@ -863,13 +863,13 @@
             "meta.tag",
             "punctuation.definition.tag",
             "punctuation.separator.inheritance.php",
-            "punctuation.definition.tag.html",
+            /*"punctuation.definition.tag.html",
             "punctuation.definition.tag.begin.html",
-            "punctuation.definition.tag.end.html",
+            "punctuation.definition.tag.end.html",*/
             "punctuation.section.embedded",
          ],
          "settings": {
-            "foreground": "#89DDFF"
+            "foreground": "#b154c4"
          }
       },
       {
