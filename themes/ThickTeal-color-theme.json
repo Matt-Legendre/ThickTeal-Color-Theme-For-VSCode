@@ -912,6 +912,27 @@
             "fontStyle": ""
          }
       },
+      // MarkDown
+      {
+         "name": "Markup Italic",
+         "scope": [
+            "markup.italic.markdown"
+         ],
+         "settings": {
+            "foreground": "#89DDFF",
+            "fontStyle": "italic"
+         }
+      },
+      {
+         "name": "Markup Bold",
+         "scope": [
+            "markup.bold.markdown"
+         ],
+         "settings": {
+            "foreground": "#89DDFF",
+            "fontStyle": "bold"
+         }
+      },
    ]
 }
 /* this comment sucks */
