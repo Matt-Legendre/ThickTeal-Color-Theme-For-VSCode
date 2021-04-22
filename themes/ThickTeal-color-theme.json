@@ -909,7 +909,7 @@
          ],
          "settings": {
             "foreground": "#89DDFF",
-            "fontStyle": ""
+            "fontStyle": "italic"
          }
       },
       // MarkDown
