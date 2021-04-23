@@ -933,6 +933,36 @@
             "fontStyle": "bold"
          }
       },
+            {
+               "name": "Headings and Sections",
+               "scope": [
+                  "entity.name.section.markdown"
+               ],
+               "settings": {
+                  "foreground": "#f07240",
+                  "fontStyle": "bold"
+               },},
+                           {
+               "name": "Headings and Sections",
+               "scope": [
+                  "entity.name.section.markdown"
+               ],
+               "settings": {
+                  "foreground": "#f07240",
+                  "fontStyle": "bold"
+               }
+            },
+            
+                        {
+                           "name": "Headings and Sections",
+                           "scope": [
+                              "markup.inline.raw.string.markdown"
+                           ],
+                           "settings": {
+                              "foreground": "#75c489",
+                              "fontStyle": "bold"
+                           }
+                        },
    ]
 }
 /* this comment sucks */
