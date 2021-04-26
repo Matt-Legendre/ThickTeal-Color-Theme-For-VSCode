@@ -16,11 +16,11 @@
       "list.highlightForeground": "#bbdaff",
       "pickerGroup.foreground": "#bbdaff",
       /* Highlight */
-      "editor.selectionBackground": "#4273af",
+      "editor.selectionBackground": "#090f16",
       "minimap.selectionHighlight": "#4273af",
-      "editor.lineHighlightBackground": "#4273af",
+      "editor.lineHighlightBackground": "#092f5a",
       "editorLineNumber.activeForeground": "#4273af",
-      "editorCursor.foreground": "#070707",
+      "editorCursor.foreground": "#faf4f4",
       "editorWhitespace.foreground": "#404f7d",
       /* Widget */
       "editorWidget.background": "#043453",
@@ -673,7 +673,7 @@
             "meta.tag.structure.head.start.html"
          ],
          "settings": {
-            "foreground": "#b14942e3",
+            "foreground": "#db938de3",
             "fontStyle": "italic"
          }
       },
@@ -725,7 +725,7 @@
             "entity.other.attribute-name.html",
          ],
          "settings": {
-            "foreground": "#be70ce",
+            "foreground": "#d494e0",
             "fontStyle": ""
          }
       },
@@ -874,7 +874,7 @@
          }
       },
       {
-         "name": "Operator, Misc",
+         "name": "Punctuation, Operator, Misc",
          "scope": [
             "constant.other.color",
             "punctuation",
@@ -887,7 +887,7 @@
             "punctuation.section.embedded",
          ],
          "settings": {
-            "foreground": "#b154c4"
+            "foreground": "#c67ed4"
          }
       },
       {
